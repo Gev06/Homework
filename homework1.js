@@ -31,16 +31,17 @@ let averageValue = (randomNomOne + randomNomTwo + randomNomThr + randomNomFour +
     console.log(averageValue) 
  
 // 5. Check if a number is a multiple of 3, 5 or 7 and output the appropriate message.
+// 5. Check if a number is a multiple of 3, 5 or 7 and output the appropriate message.
 let multiple = 725
-if (multiple / 3 && multiple / 5 && multiple / 7 ) {
+if (multiple % 3==0 && multiple % 5==0 && multiple % 7==0 ) {
     console.log('725 is a multiple of 3, 5 and 7.')
-}else if (multiple / 5) {
+}else if (multiple % 5==0) {
     console.log('725 is a multiple of 5')
-}else if (multiple / 3 && multiple / 7) {
+}else if (multiple % 3==0 && multiple % 7==0) {
     console.log('725 is multiple of 3 and 7')
-}else if (multiple / 7 ) {
+}else if (multiple % 7==0 ) {
     console.log('725 is multiple of 7') 
-}else if (multiple / 3) {
+}else if (multiple % 3==0) {
     console.log('725 is multiple of 3')
 }
     
