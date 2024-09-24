@@ -54,7 +54,15 @@ if (numberA>=0 && numberB>=0 && numberC>=0) {
     console.log('-') 
 } else if (numberA>=0 && numberB>=0 && numberC<=0) {
     console.log('-')
-} 
+} else if (numberA<=0 && numberB<=0 && numberC>=0) {
+    console.log('+')
+} else if (numberA>=0 && numberB<=0 && numberC<=0) {
+    console.log('+')
+} else if (numberA<=0 && numberB>=0 && numberC<=0) {
+    console.log('+')
+} else if (numberA<=0 && numberB<=0 && numberC<=0) {
+    
+}
 
 //4. Given the following code rewrite it using only two if operators. (Hint: use logical
 //operators).
