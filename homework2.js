@@ -38,20 +38,23 @@ if (numOne>numTwo && numTwo>numThree) {
 }
 
 
-
 //3. Find the sign of product of three numbers without multiplication operator. Display the
 //specified sign.
+let numberA = +prompt('give a first number')
+let numberB = +prompt('give a second number')
+let numberC = +prompt('give a third number')
 
-
-
-
-
-
-
-
-
-
-
+if (numberA>=0 && numberB>=0 && numberC>=0) {
+    console.log('+')
+} else if (numberA<=0 && numberB>=0 && numberC>=0) {
+    console.log('-') 
+} else if (numberA===0 && numberB===0 && numberC===0) {
+    comsole.log('unsigned')
+} else if (numberA>=0 && numberB<=0 && numberC>=0) {
+    console.log('-') 
+} else if (numberA>=0 && numberB>=0 && numberC<=0) {
+    console.log('-')
+} 
 
 //4. Given the following code rewrite it using only two if operators. (Hint: use logical
 //operators).
