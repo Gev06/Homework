@@ -12,14 +12,6 @@ function positiveInteger(a) {
 }
 
 //2. Insert a digit and a number. Check whether the digits contains in the number or not.
-function fn(digit, number) {
-     let digitOne = number % 10
-   if (digitOne === digit) {
-         return 'yes'; 
-   } else {
-         return 'no';
-   }
-}
 
 
 //3. Enter a number. Reverse its first and last digits. Print the new number.
