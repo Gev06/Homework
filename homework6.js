@@ -1,15 +1,10 @@
-let ak = {
-    weight: 3600,
-    year: 1974,
-    autor: 'M. Kalashnikov'
-}
-function fn(object) { 
-    for(let key in object) {
-        value =  object[key];
-        let objKey = key;
-        
-        object[key] = value;
-    }
+function fn(obj) {
+    // debugger
+    let obj2 = {};
+    for (let key in obj) {
+        obj2[obj[key]]=key;
+    } 
+    return obj2;
 }
 
 
